@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <strings.h>
 #include <locale.h>
 
 int main(int argc, char const *argv[])
