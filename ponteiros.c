@@ -61,5 +61,18 @@ int main(int argc, char const *argv[])
 
     fnMath operacao = op == 1 ? &soma : (op == 2 ? &divisao : (op == 3 ? &subtracao : &multiplicacao));
     printf("\n %f", (*operacao)(8, 7));
+/* 
+    int vet[10] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+    int *pvet = vet;
+
+    *(pvet + 4) = 888;
+    
+    for (size_t i = 0; i < 10; i++)
+    {
+        printf("\nvet[%ld] = %d\n", i, vet[i]);
+        printf("pvet[%ld] = %d\n", i, *(pvet + i));
+    }
+
+ */
     return 0;
 }
